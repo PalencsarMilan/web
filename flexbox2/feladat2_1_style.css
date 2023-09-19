@@ -1,0 +1,29 @@
+.flex-container {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    background-color: yellow;
+    justify-content: center;
+}
+
+#elso {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+#masodik {
+    order: 3;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+#harmadik {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
