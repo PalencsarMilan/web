@@ -1,0 +1,77 @@
+body {
+    background-image: url(https://wallpapercrafter.com/desktop/130358-anime-Lifeline-sky-school-dark-anime-girls-window.jpg);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 50%);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 95%;
+    height: 95%;
+    padding: 35px;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 77);
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#cim {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 77);
+}
+
+table {
+    height: 150px;
+    width: 100%;
+    padding: 15px;
+}
+
+th {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkslateblue;
+    color: white;
+    height: 150px;
+    width: 15%;
+    text-align: center;
+}
+
+td {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 77);
+    color: white;
+    height: 150px;
+    width: 12.5%;
+    text-align: center;
+}
+
+#csutiro {
+    width: 37.5%;
+}
+
+#keddfiz {
+    width: 25%;
+} 
+
+.felment {
+    background-color: rgb(102, 0, 102);
+
+}
+
+.nemkot {
+    background-color: rgb(128, 85, 0);
+}

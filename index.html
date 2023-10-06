@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Órarend</title>
+</head>
+<body>
+    <div class="flex-container">
+        <header id="cim">Órarend</header>
+        <div>
+            <table>
+                <tr>
+                    <th>Kezdés: 8:00</th>
+                    <td>8:00-8:45</td>
+                    <td>9:00-9:45</td>
+                    <td>10:00-10:45</td>
+                    <td>11:00-11:45</td>
+                    <td>12:00-12:45</td>
+                    <td>13:00-13:45</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Hétfő</th>
+                    <td>Történelem</td>
+                    <td>Matematika</td>
+                    <td>Biológia</td>
+                    <td class="felment">Testnevelés</td>
+                    <td>Informatika</td>
+                    <td>Angol</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Kedd</th>
+                    <td>Kémia</td>
+                    <td class="felment">Testnevelés</td>
+                    <td>Történelem</td>
+                    <td>Matematika</td>
+                    <td class="nemkot">Tánc</td>
+                    <td class="nemkot">Ének</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Szerda</th>
+                    <td id="keddfiz">Fizika</td>
+                    <td class="felment">Testnevelés</td>
+                    <td>Angol</td>
+                    <td>Informatika</td>
+                    <td>Biológia</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Csütörtök</th>
+                    <td>Matematika</td>
+                    <td id="csutiro">Irodalom</td>
+                    <td class="felment">Testnevelés</td>
+                    <td class="nemkot">Etika</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <th>Péntek</th>
+                    <td>Angol</td>
+                    <td>Történelem</td>
+                    <td>Kémia</td>
+                    <td class="felment">Testnevelés</td>
+                    <td class="nemkot">Tánc</td>
+                    <td class="nemkot">Etika</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td class="felment">Az ilyen színű órákon felmentéssel nem kell részt venni</td>
+                    <td class="nemkot">Az ilyen színű órákon nem kötelező részt venni szülői beleegyezéssel</td>
+                    <td><button id="darkmode">Dark Mode</button></td>
+                    <script>
+                        document.getElementById("darkmode").addEventListener("click", function() {
+
+                            window.location.href = "index_dark.html";
+                        });
+                    </script>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

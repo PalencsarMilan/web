@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://wallpapers.com/images/hd/artistic-school-clipart-background-1uir61mblo42se8r.jpg);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 50%);
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 95%;
+    height: 95%;
+    padding: 35px;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#cim {
+    font-size: 80px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+table {
+    height: 150px;
+    width: 100%;
+    padding: 15px;
+}
+
+th {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkmagenta;
+    height: 150px;
+    width: 15%;
+    text-align: center;
+}
+
+td {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    height: 150px;
+    width: 12.5%;
+    text-align: center;
+}
+
+#csutiro {
+    width: 37.5%;
+}
+
+#keddfiz {
+    width: 25%;
+} 
+
+.felment {
+    background-color: hotpink;
+}
+
+.nemkot {
+    background-color: gold;
+}
