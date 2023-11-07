@@ -1,0 +1,42 @@
+body {
+    background-color: antiquewhite;
+}
+
+.matrix-container {
+    width: fit-content;
+    text-align: center;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+#matrix {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: hotpink;
+    color: black;
+}
+
+button {
+    background-color: hotpink;
+    color: black;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 25px;
+}
