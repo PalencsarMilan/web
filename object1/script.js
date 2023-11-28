@@ -1,13 +1,15 @@
-let user = {};
-
-user.firstName = 'John';
-user.lastName = 'Smith';
-user.firstName = 'Paul';
-
-delete user.firstName;
-
-function print() 
+function isEmpty(obj) 
 {
-    console.log(user.firstName+" ", user.lastName);
+    for (let key in obj) 
+    {
+        if (obj.hasOwnProperty(key))
+        {
+            return false;
+        }
+    }
+    return true;
 }
-print()
+
+
+console.log(isEmpty({}));
+console.log(isEmpty({name: "John"}));
