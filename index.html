@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Data attributum</title>
+    <style>
+        #container {
+            width: 225px;
+            height: 225px;
+            background-color: hotpink;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .cella {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            display: inline-block;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+
+        .piros {
+            background-color: red; 
+        }
+
+        .kek {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <body>
+        <div id="container">
+            <div class="cella" data-szin="sarga"></div>
+            <div class="cella" data-szin="sarga"></div>
+            <br>
+            <div class="cella" data-szin="sarga"></div>
+            <div class="cella" data-szin="sarga"></div>
+        </div>
+        <script>
+            const cellak = document.querySelectorAll('.cella');
+            cellak.forEach(cella => {
+            cella.addEventListener('click', () => {
+                if (cella.dataset.szin === 'sarga') {
+                cella.dataset.szin = 'piros';
+                cella.classList.add('piros');
+                } else if (cella.dataset.szin === 'piros') {
+                cella.dataset.szin = 'kek';
+                cella.classList.remove('piros');
+                cella.classList.add('kek');
+                } else if (cella.dataset.szin === 'kek') {
+                cella.dataset.szin = 'sarga';
+                cella.classList.remove('kek');
+                cella.classList.add('sarga');
+                }
+            })
+            })
+        </script>      
+</body>
+</html>
