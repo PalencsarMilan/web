@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kurzus</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="courses-list"></div>
+<div id="course-details"></div>
+<div id="student-details"></div>
+<form id="new-course-form">
+  <input type="text" id="course-name" placeholder="Új kurzus neve">
+  <button type="button" onclick="createCourse()">Kurzus létrehozása</button>
+</form>
+<form id="new-student-form">
+  <input type="text" id="student-name" placeholder="Diák neve">
+  <button type="button" onclick="addStudent()">Diák hozzáadása</button>
+</form>
+<form id="edit-student-form">
+  <input type="text" id="edit-student-name" placeholder="Új név">
+  <button type="button" onclick="saveEditedStudent()">Mentés</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>

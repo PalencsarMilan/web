@@ -1,0 +1,43 @@
+body {
+    background-color: gray;
+}
+
+input {
+    background-color: black;
+    color: hotpink;
+    border: 2px solid  hotpink;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+button {
+    background-color: black;
+    color: hotpink;
+    border: 2px solid  hotpink;
+    border-radius: 10px;
+}
+
+.course {
+    cursor: pointer;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 4px solid  hotpink;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: black;
+    color: hotpink;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+  
+  .student {
+    margin-bottom: 5px;
+  }
+  
+  #student-details {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #course-details {
+    text-align: center;
+  }
