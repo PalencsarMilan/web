@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codewars Score</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="doboz">
+    <header>
+        <h1>Codewars User Points</h1>
+    </header>
+    <nav>
+        <input type="text" id="username" placeholder="Username"></br>
+        <button onclick="fetchUserData()">Total Points</button>
+        <button onclick="showLanguagePoints()">Points by Language</button>
+    </nav>
+    <div id="content">
+        <p>Input Username, then click "Total Points" </br> or "Points by Language"!</p>
+    </div>
+    <div id="error"></div>
+    </div>
+</body>
+</html>
