@@ -1,0 +1,42 @@
+
+body {
+    background-color: #d1d5db;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    border-bottom: 2px solid #ccc;
+  }
+  
+  header nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+
+  p {
+    text-align: justify;
+  }
+  
+  .card-text {
+    text-align: justify;
+  }
+  
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .main-div {
+    background-color: white;
+  }
